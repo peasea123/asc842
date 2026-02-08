@@ -1,0 +1,45 @@
+# LaTeX generated files
+*.aux
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.dpth
+*.md5
+*.auxlock
+*.out
+*.log
+*.dvi
+*.ps
+*.eps
+*.pdf
+
+# IDE and editor files
+.vscode/
+*.sublime-workspace
+*.sublime-project
+.DS_Store
+Thumbs.db
+
+# OS files
+.AppleDouble
+.LSOverride
+._*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+
+# Node (if using node-based build tools)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Build artifacts
+build/
+dist/

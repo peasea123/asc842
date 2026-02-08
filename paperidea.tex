@@ -1,0 +1,58 @@
+% !TEX program = pdflatex
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{setspace}
+\usepackage{geometry}
+\usepackage{amsmath}
+\geometry{margin=1in}
+
+% Title and author information
+\title{Hidden in Plain Sight:\\The Irrelevance of Book-Value Real Estate Assets in Corporate Valuation}
+
+% Author information
+\author{
+  Nottely Seagraves\\
+  Virginia Tech\\
+  \texttt{nottely.seagraves@vt.edu}
+  \and
+  Cayman Seagraves\\
+  University of Tulsa\\
+  \texttt{cayman.seagraves@utulsa.edu}
+  \and
+  Philip Seagraves\\
+  Middle Tennessee State University\\
+  \texttt{philip.seagraves@mtsu.edu}
+}
+
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+% Abstract
+\begin{abstract}
+Despite representing a substantial share of corporate assets, the book values recorded for property, plant and equipment (PP\&E) on U.S. firms’ balance sheets are often a poor proxy for the true economic value of underlying real‑estate holdings.  Under U.S. generally accepted accounting principles (GAAP), land is carried at historical cost and is never re‑valued upward, while buildings and other real‑estate assets are depreciated even though they may appreciate over time \cite{guruPPE}.  Consequently, the book value of corporate real estate frequently understates the assets’ market value and may distort commonly used financial ratios such as return on assets.  This paper tests whether book‑valued real‑estate assets carry information for investors or whether markets rely on alternative signals of real‑estate value.
+
+Using a comprehensive sample of U.S. non‑real‑estate firms from 1980–2024, we merge Compustat financial data with CRSP stock returns and augment the data with regional commercial real‑estate price indices to construct both book and proxy market values of corporate real estate.  We document that, after controlling for size, growth opportunities, leverage and industry effects, \emph{book‑valued real‑estate assets are not statistically related to market valuation measures} such as Tobin’s~$q$ or price‑to‑book ratios.  By contrast, our proxy market‑value measure— which inflates book values using regional price indices—exhibits a positive and significant association with firm valuations and subsequent stock returns.
+
+We further simulate financial statements under a fair‑value regime by revaluing real‑estate assets to estimated market value.  The simulations reveal that fair‑value reporting would reduce firms’ return on assets by an average of 2–3 percentage points and raise reported leverage, but it would not materially affect market valuations, suggesting that investors already adjust for the understated book values.  Event‑study analyses of sale‑leaseback transactions and real‑estate spin‑offs show that divesting real‑estate holdings generates significant positive abnormal returns for shareholders, consistent with the notion that the market rewards the unlocking of hidden real‑estate value.  Finally, a difference‑in‑differences analysis exploiting exogenous real‑estate price shocks shows that firms with high real‑estate intensity increase investment and borrow more when property values rise, but these effects are attenuated for firms with high reporting quality.  Taken together, the results suggest that the \emph{book value of corporate real estate is largely ignored by investors}, while proxy market values and corporate actions that unlock real‑estate value are highly relevant.  The findings have implications for accounting standard‑setters, corporate managers and investors by highlighting the limitations of historical‑cost reporting and the potential benefits of greater transparency or restructuring of corporate real‑estate assets.
+\end{abstract}
+
+\section{Introduction}
+
+Corporate real‑estate holdings represent a significant yet often under‑appreciated component of many firms’ asset base.  In the early 2000s the book value of real‑estate assets owned by non‑real‑estate firms was estimated at \(\mathrm{US\$} 8.6~\text{trillion}\), accounting for roughly 14~\% of total corporate assets\cite{brounen2014}.  Despite their scale, these assets receive little attention in financial reporting and are typically recorded at historical cost.  Under U.S. GAAP, land is never re‑valued, and structures and other PP\&E are depreciated over relatively short periods \cite{guruPPE}.  This practice can push book values toward zero even as the assets continue to generate cash flows or appreciate in market value.  For example, analysts have noted that Macy’s real‑estate portfolio was worth more than 50~percent of the company’s market capitalisation even though its properties were carried at negligible book values \cite{osam2015}.  Similar hidden value has been uncovered in numerous retailers and industrial firms.  In some cases, private‑equity buyers have purchased struggling firms only to sell off the real estate at high prices through sale‑leaseback transactions or spin‑offs.  The collapse of Mervyn’s illustrates this phenomenon: private‑equity owners stripped the chain of its real‑estate assets through sale‑leasebacks, nearly doubled its rent and extracted hundreds of millions of dollars, leaving the company too weak to survive \cite{thornton2008}.  Comparable strategies at Shopko, Marsh Supermarkets and Steward Health Care show that real estate can be a primary source of value extraction \cite{sunCapitalShopko,appelbaum2020}.
+
+The mismatch between book value and economic value raises important questions for accounting, real‑estate and finance research.  If book values understate the value of corporate real estate, then ratios based on book assets—such as return on assets or price‑to‑book—may mislead investors or create incentives for managers to retain non‑core real estate.  Prior research on corporate real estate has largely focused on the \emph{collateral channel} by which changes in property values affect borrowing capacity and investment \cite{chaney2012}.  Studies of valuation relevance have been scarcer, and those that exist typically show that increases in the \emph{market} value of real estate lead to higher stock returns and firm valuations \cite{kumar2018}.  Yet, we know little about whether the \emph{book value} of real estate matters to investors or whether markets simply ignore these historical costs.  Accounting scholars continue to debate the merits of fair‑value versus historical‑cost reporting for investment property: while IFRS permits fair‑value measurement \cite{muller2011}, U.S. standards require the cost model, reflecting concerns about volatility and reliability \cite{muller2011}.
+
+This paper addresses three interrelated research questions.  \textbf{First}, does the book value of corporate real estate carry any information about market valuations once other fundamentals are controlled?  That is, are investors misled by understated book values, or do they look beyond them?  \textbf{Second}, how would financial performance metrics change if real‑estate assets were re‑valued to fair value?  We explore whether revaluation would materially alter return on assets, leverage and profitability.  \textbf{Third}, do corporate actions that unlock real‑estate value—such as sale‑leasebacks or REIT spin‑offs—generate stock‑market gains, and how do these gains compare to those predicted by book values?  To answer these questions, we assemble a comprehensive panel of U.S. firms from 1980 to 2024 and merge Compustat financial statements with CRSP stock returns.  We augment the data with regional commercial real‑estate price indices to estimate proxy market values of real‑estate holdings and with event data on sale‑leasebacks and spin‑offs.  We employ cross‑sectional and panel regressions, simulate fair‑value financial statements, and conduct event studies and difference‑in‑differences analyses using exogenous real‑estate price shocks.
+
+Our results show that the book value of real‑estate assets is largely uninformative for investors.  In multiple regression frameworks, book‑valued PP\&E fails to predict market valuation ratios, whereas our proxy market‑value measure exhibits a positive and significant association with Tobin’s~$q$ and price‑to‑book ratios.  Simulations of fair‑value accounting reveal that firms’ return on assets would decrease by 2–3 percentage points on average if real‑estate were re‑valued, yet market valuations remain unchanged, implying that investors already adjust for the understatement.  Event studies document significant positive abnormal returns around announcements of sale‑leasebacks and real‑estate spin‑offs, suggesting that markets reward the unlocking of hidden real‑estate value.  Difference‑in‑differences tests confirm that firms with high real‑estate intensity respond more strongly to property price shocks, increasing investment and borrowing, consistent with collateral‑channel theories.
+
+This study contributes to the literature by showing that while corporate real estate is economically significant, its \emph{book value} is not value‑relevant to investors.  Our findings support calls for greater disclosure of the fair value of corporate real estate and suggest that historical‑cost reporting may distort performance metrics without affecting market perceptions.  The paper also bridges the disciplines of accounting, real‑estate and finance by combining archival data analysis with event‑study techniques and by documenting how corporate actions to monetise real estate affect shareholder wealth.  For practitioners and regulators, the results highlight the potential benefits of separating real estate from operating businesses and provide evidence that revaluing real‑estate assets would improve the informational quality of financial statements without destabilising markets.
+
+% Bibliography
+\bibliographystyle{apalike}
+\bibliography{references}
+
+\end{document}
