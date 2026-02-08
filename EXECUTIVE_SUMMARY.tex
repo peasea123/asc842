@@ -122,8 +122,9 @@ This document provides an executive summary of a comprehensive research framewor
 
 \begin{table}[h]
 \centering
-\small
-\begin{tabular}{lccc}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{p{2cm}p{3.5cm}p{3.5cm}}
 \toprule
 \textbf{Dimension} & \textbf{Prior Work} & \textbf{This Paper} \\
 \midrule
@@ -145,24 +146,19 @@ Methods & Collateral channel analysis & Multi-method triangulation with causal I
 
 \begin{table}[h]
 \centering
-\small
-\setlength{\tabcolsep}{6pt}
-\begin{tabular}{lllll}
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{p{0.4cm}p{2.3cm}p{2.2cm}p{1.8cm}p{1.8cm}}
 \toprule
-\textbf{\#} & \textbf{Question} & \textbf{Method} & \textbf{Sample} & \textbf{Expected Finding} \\
+\textbf{\#} & \textbf{Question} & \textbf{Method} & \textbf{Sample} & \textbf{Expected Result} \\
 \midrule
-\textbf{1} & Are book RE values statistically irrelevant? & Fama-MacBeth & 8,000+ firm-years & Book RE $\beta \approx 0$ \\
-& & cross-sectional & (1980--2024) & Market RE $\beta > 0$ \\
+\textbf{1} & Are book RE values irrelevant? & Fama-MacBeth cross-sectional & 8,000+ firm-years (1980--2024) & Book $\beta \approx 0$; Market $\beta > 0$ \\
 \midrule
-\textbf{2} & How would financials change under fair value? & Fair value simulation & 300+ firms & ROA $\downarrow$ 2--3 pp \\
-& & + DiD around IFRS & (2007--2009) & Leverage $\uparrow$, q unchanged \\
+\textbf{2} & Would fair value change financials? & Fair value simulation + DiD (IFRS) & 300+ firms (2007--2009) & ROA $\downarrow$ 2--3 pp; Leverage $\uparrow$ \\
 \midrule
-\textbf{3} & Do corporate actions unlocking RE create value? & Event study (CAR) & $\approx$2,000 & Positive CARs \\
-& & + propensity matching & sale-leasebacks & = 0.5--1.0\% \\
-& & & 100 spin-offs & \\
+\textbf{3} & Do RE divestitures create value? & Event study (CAR) + propensity matching & 2,000+ sales; 100 spin-offs & CAR = +0.5 to +1.0\% \\
 \midrule
-\textbf{4} & Do firms respond to RE collateral shocks? & Difference-in-differences & 5,000+ firm-years & Elasticity \\
-& & (regional shocks) & (GFC, recessions) & = 0.08--0.12 \\
+\textbf{4} & Do firms respond to RE shocks? & Difference-in-differences (regional) & 5,000+ firm-years (GFC/recessions) & Elasticity = 0.08--0.12 \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -206,16 +202,17 @@ Using 5-factor Fama-French benchmark estimated over pre-event window.
 
 \begin{table}[h]
 \centering
-\small
-\begin{tabular}{llll}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{p{1.8cm}p{2cm}p{2.3cm}p{1.3cm}}
 \toprule
 \textbf{Data Type} & \textbf{Source} & \textbf{Coverage} & \textbf{Notes} \\
 \midrule
-\textbf{Corporate financials} & Compustat (WRDS) & 1980--2024 & PPE, depreciation, debt, capex \\
-\textbf{Stock returns} & CRSP (WRDS) & Daily/monthly & For Tobin's q, CAR calculations \\
-\textbf{RE prices (regional)} & CoStar Real Capital & Quarterly, 1990--2024 & PRIMARY: 380+ US metros \\
-\textbf{RE prices (national)} & NAREIT / Fed & Monthly, 1980--2024 & SECONDARY: robustness checks \\
-\textbf{Transaction data} & SEC EDGAR (8-K/10-K) & All public firms & Event dates for transactions \\
+Corporate financials & Compustat (WRDS) & 1980--2024 & PPE, depreciation, debt \\
+Stock returns & CRSP (WRDS) & Daily/monthly & For q, CAR calc. \\
+RE prices (regional) & CoStar Real Capital & Q, 1990--2024 & 380+ US metros \\
+RE prices (national) & NAREIT/Fed & Monthly, 1980--2024 & Robustness checks \\
+Transaction data & SEC EDGAR (8-K) & All public firms & Event dates \\
 \bottomrule
 \end{tabular}
 \end{table}
