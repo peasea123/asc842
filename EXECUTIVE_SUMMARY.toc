@@ -1,0 +1,41 @@
+\contentsline {section}{\numberline {1}Research Contribution \& Novelty}{4}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Core Research Question}{4}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Why This Matters}{4}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Novel Contributions}{4}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Positioning vs. Literature}{4}{subsection.1.4}%
+\contentsline {section}{\numberline {2}Empirical Design Summary}{5}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Four Complementary Research Questions}{5}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Key Econometric Models}{5}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Main Specification (Fama-MacBeth)}{5}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}Collateral Channel (Difference-in-Differences)}{5}{subsubsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.3}Event Study (Cumulative Abnormal Returns)}{6}{subsubsection.2.2.3}%
+\contentsline {section}{\numberline {3}Data Sources \& Assembly}{7}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Data Requirements}{7}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Sample Size Targets}{7}{subsection.3.2}%
+\contentsline {section}{\numberline {4}Threats to Causal Inference \& Solutions}{8}{section.4}%
+\contentsline {section}{\numberline {5}Implementation Timeline}{9}{section.5}%
+\contentsline {section}{\numberline {6}Expected Key Findings}{10}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Main Relevance Test (Q1)}{10}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Fair Value Simulation (Q2)}{10}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Corporate Actions (Q3)}{10}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Collateral Channel (Q4)}{10}{subsection.6.4}%
+\contentsline {section}{\numberline {7}Journal Selection \& Publication Strategy}{11}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Target Journal Ranking}{11}{subsection.7.1}%
+\contentsline {subsubsection}{\numberline {7.1.1}Tier 1 (Primary Targets) \^a\@inpenc@undefined@ {latin1}\@inpenc@undefined@ {latin1} 6--10\% acceptance rate}{11}{subsubsection.7.1.1}%
+\contentsline {subsubsection}{\numberline {7.1.2}Tier 2 (Alternative Targets) \^a\@inpenc@undefined@ {latin1}\@inpenc@undefined@ {latin1} 20--30\% acceptance rate}{11}{subsubsection.7.1.2}%
+\contentsline {subsection}{\numberline {7.2}Publication Readiness Checklist}{11}{subsection.7.2}%
+\contentsline {section}{\numberline {8}Success Metrics \& Go/No-Go Decisions}{13}{section.8}%
+\contentsline {section}{\numberline {9}Deliverables \& Repository Structure}{14}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Documentation (12,000+ words)}{14}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Code \& LaTeX Files}{14}{subsection.9.2}%
+\contentsline {subsection}{\numberline {9.3}Directory Structure}{14}{subsection.9.3}%
+\contentsline {section}{\numberline {10}Next Steps (First 4 Weeks)}{15}{section.10}%
+\contentsline {subsection}{\numberline {10.1}Week 1: Confirm Data Access}{15}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.2}Week 2: Begin Data Collection}{15}{subsection.10.2}%
+\contentsline {subsection}{\numberline {10.3}Week 3: Proof-of-Concept Analysis}{15}{subsection.10.3}%
+\contentsline {subsection}{\numberline {10.4}Week 4: Share with Collaborators}{15}{subsection.10.4}%
+\contentsline {section}{\numberline {11}Final Remarks}{16}{section.11}%
+\contentsline {subsection}{\numberline {11.1}Why This Research Matters}{16}{subsection.11.1}%
+\contentsline {subsection}{\numberline {11.2}Timeline Is Realistic}{16}{subsection.11.2}%
+\contentsline {subsection}{\numberline {11.3}Team Is Well-Positioned}{16}{subsection.11.3}%
+\contentsline {section}{\numberline {12}Key References}{18}{section.12}%
